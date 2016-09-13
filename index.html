@@ -69,8 +69,8 @@ Q.scene("level1",function(stage) {
   
   stage.add("viewport").follow(player);
   
-  //stage.insert(new Q.Enemy({ x: 700, y: 0 }));
-  //stage.insert(new Q.Enemy({ x: 800, y: 0 }));
+  stage.insert(new Q.Enemy({ x: 700, y: 0 }));
+  stage.insert(new Q.Enemy({ x: 800, y: 0 }));
   
   stage.insert(new Q.Tower({ x: 220, y: 50 }));
 });
